@@ -22,6 +22,7 @@ app.use(bodyParser.json())
 
 app.use('/', require('./routes/userRoute/userRoute'));
 app.use('/', require('./routes/walletRoutes/walletRoutes'));
+app.use('/', require('./routes/moreRoutes/moreRoutes'));
 
 
 app.listen(port, function(err) {

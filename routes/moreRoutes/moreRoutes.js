@@ -3,7 +3,7 @@ const router = express.Router(); // Create a new Router instance
 
 router.use(express.json()); // Note: Corrected invocation of express.json()
 
-const moreContrller = require('../../controllers/moreContrller');
+const moreContrller = require('../../controllers/moreController');
 
 
 
